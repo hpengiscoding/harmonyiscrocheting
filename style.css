@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'Retrogression-Regular';
+  src: url(Retrogression-Regular.otf?#iefix);
+}
+
+@font-face {
+  font-family: 'Bonny-Medium';
+  src: url(Bonny-Medium.otf);
+}
+
+        h1 {
+        margin: 0;
+        padding: 0;  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
